@@ -18,6 +18,28 @@ public class AnswerServiceImpl implements AnswerService {
 	@Override
 	public List<Answer> getAllAnswer() {
 		// TODO Auto-generated method stub
+		/**
+		 * <p>Java class for country complex type.
+		 *
+		 * <p>The following schema fragment specifies the expected content contained within this class.
+		 *
+		 * <pre>
+		 * &lt;complexType name="country"&gt;
+		 *   &lt;complexContent&gt;
+		 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+		 *       &lt;sequence&gt;
+		 *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+		 *         &lt;element name="population" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
+		 *         &lt;element name="capital" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+		 *         &lt;element name="currency" type="{http://www.baeldung.com/springsoap/gen}currency"/&gt;
+		 *       &lt;/sequence&gt;
+		 *     &lt;/restriction&gt;
+		 *   &lt;/complexContent&gt;
+		 * &lt;/complexType&gt;
+		 * </pre>
+		 *
+		 *
+		 */
 		return answerRepository.findAll();
 	}
 
