@@ -66,6 +66,19 @@ public class AnswerServiceImpl implements AnswerService {
 		 * @return
 		 *     possible object is
 		 *     {@link String }
+		 * <p>Java class for currency.
+		 *
+		 * <p>The following schema fragment specifies the expected content contained within this class.
+		 * <p>
+		 * <pre>
+		 * &lt;simpleType name="currency"&gt;
+		 *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
+		 *     &lt;enumeration value="GBP"/&gt;
+		 *     &lt;enumeration value="EUR"/&gt;
+		 *     &lt;enumeration value="PLN"/&gt;
+		 *   &lt;/restriction&gt;
+		 * &lt;/simpleType&gt;
+		 * </pre>
 		 *
 		 */
 	}
