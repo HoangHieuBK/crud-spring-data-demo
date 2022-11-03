@@ -17,6 +17,14 @@ public class AnswerServiceImpl implements AnswerService {
 	
 	@Override
 	public List<Answer> getAllAnswer() {
+		/**
+		 * Gets the value of the name property.
+		 *
+		 * @return
+		 *     possible object is
+		 *     {@link String }
+		 *
+		 */
 		// TODO Auto-generated method stub
 		/**
 		 * <p>Java class for country complex type.
@@ -52,7 +60,14 @@ public class AnswerServiceImpl implements AnswerService {
 	@Override
 	public void insertAnswer(Answer answer) {
 		answerRepository.save(answer);
-		// abc
+		/**
+		 * Gets the value of the name property.
+		 *
+		 * @return
+		 *     possible object is
+		 *     {@link String }
+		 *
+		 */
 	}
 
 	@Override
@@ -62,6 +77,14 @@ public class AnswerServiceImpl implements AnswerService {
 
 	@Override
 	public String editAnswer(String id, Answer newAnswer) {
+		/**
+		 * Gets the value of the name property.
+		 *
+		 * @return
+		 *     possible object is
+		 *     {@link String }
+		 *
+		 */
 		Boolean existA = answerRepository.existsById(id);
 		if(!existA) {
 			return "No question with id above";
